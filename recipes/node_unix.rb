@@ -58,7 +58,7 @@ file "#{node['rundeck']['user_home']}/.ssh/authorized_keys" do
   content rundeck_secure['public_key']
 end
 
-sudo 'rundeck-admin' do
-  user node['rundeck']['user']
-  nopasswd true
-end
+#sudo 'rundeck-admin' do
+#  user node['rundeck']['user']
+#  nopasswd true
+#end

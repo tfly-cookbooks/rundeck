@@ -1,4 +1,9 @@
 =======
+## 2.0.13
+* Author:  jeff.bragg@ticketfly.com
+* Commented out broken part of community cookbook (sudo section)
+* Testing Chef 12.5+
+
 ## 2.0.12
 * Update template file for 2.6.2
 * Update downloaded deb and rpm for 2.6.2
